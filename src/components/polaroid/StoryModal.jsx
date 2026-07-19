@@ -58,7 +58,7 @@ function StoryModal({ photo, onClose }) {
 
             <h3 className="font-display text-2xl italic text-ink">{photo.title}</h3>
 
-            <p className="mt-4 font-note text-xl leading-relaxed text-ink-soft sm:text-2xl">{photo.story}</p>
+            <p className="mt-4 font-body text-base leading-relaxed text-ink-soft sm:text-lg">{photo.story}</p>
 
             {photo.isFinal ? (
               <div className="mt-6 flex items-center gap-2 border-t border-ink/10 pt-4 text-blush">
